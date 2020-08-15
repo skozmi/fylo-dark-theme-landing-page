@@ -1,0 +1,23 @@
+body {
+    background-color: #000;
+    color: #fff;
+}
+
+.nav-link {
+    color: #fff !important;
+}
+
+header {
+    text-align: center;
+}
+
+.col-md-6 {
+    text-align: center;
+}
+
+#started {
+    text-align: center;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
