@@ -1,22 +1,134 @@
 body {
     background-color: #000;
     color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+
+.big-heading {
+    font-size: 3rem;
+}
+
+/*containers*/
+nav, section, footer {
+    padding: 3% 6% !important;
+}
+
+header, main {
+    padding: 3% 18% !important;
+}
+
+/*buttons, form, email input and links*/
 .nav-link {
     color: #fff !important;
 }
 
+.nav-link:hover{
+    text-decoration: underline;
+}
+
+.startBtn {
+    background-color: hsl(176, 68%, 64%);
+    color: #fff;
+    padding: 0.5rem 4rem;
+    border-radius: 25px;
+    margin: 0 15px;
+}
+
+.startBtn:hover {
+    background-color: hsl(198, 60%, 50%);
+    color: #fff;
+}
+
+.form-inline {
+    justify-content: center;
+}
+
+.form-group {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+
+#inputEmail {
+    padding: 0.5rem 12rem 0.5rem 1rem;
+    font-size: 1.2rem;
+    border-radius: 25px; 
+}
+
+/*images*/
+.header-image {
+    width: 80%;
+}
+
+.features-image {
+    width: 80%;
+}
+
+.card-img {
+    width: 80%;
+    border-radius: 50%;
+}
+
+/*icons*/
+.footer-icon {
+    margin: 0 10px;
+}
+
+/*header*/
 header {
     text-align: center;
 }
 
+/*main*/
 .col-md-6 {
     text-align: center;
 }
 
+/*section started*/
 #started {
     text-align: center;
+}
+
+/*section team*/
+.card-img-text {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.teamImg {
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 2%;
+}
+
+.teamTxt {
+    font-size: 0.6rem;
+    line-height: 0.5;
+}
+
+/*footer*/
+footer {
+    font-size: 0.8rem;
+}
+
+footer a {
+    color: #fff; 
+}
+
+footer a:hover {
+    color: #fff;
+}
+
+footer ul {
+    list-style-type: none;
 }
 
 .attribution { font-size: 11px; text-align: center; }
